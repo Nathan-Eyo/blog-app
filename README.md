@@ -50,7 +50,7 @@ Ensure you have the following installed on your machine:
 4. Run the application:
 
    ```bash
-   npm start
+   npx nodemon src/app.js
    ```
 
 ## Configuration
@@ -70,7 +70,7 @@ DB_NAME=blog_db
 To start the application, run:
 
 ```bash
-npx nodemon app.js
+npx nodemon src/app.js
 ```
 
 The application will be accessible at http://localhost:3000.
